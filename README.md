@@ -34,7 +34,7 @@ Regardless if you can or cannot answer the question, provide a short explanation
 
 3. In order to generate the .xml file for cgview.jar, you must run the Perl script cgview_xml_builder.pl, which is included in the project's GitHub.
 
-4. I used Strawberry Perl's CPAN functionalities to download the modules needed to run the Perl script, but I ran into a problem: one of the modules did not download correctly, 
+4. I used Strawberry Perl's CPAN functionalities (``cpan install MODULE::NAME``) to download the modules needed to run the Perl script, but I ran into a problem: one of the  	     modules did not download correctly, 
     due to some changes in Perl back in 2015. I tried tweaking the module's files, to no avail. Instead, I used a legacy version of Strawberry Perl (5.24.0.1), which in turn         comes with the legacy version of Perl I needed to download the module correctly.
 
 5. After that, I could parse and extract the Genome.gb data into a test.xml file which, when run through cgview.jar, would generate a map.
@@ -63,6 +63,7 @@ https://github.com/Jad-Panjaitan/Coding-Challenge-S21/blob/main/Final-Answer/fin
 ## CITATIONS
 
 CGView -- 
+
 	Version -> 2.02, 2020-06-21
 	APA Citation -> Stothard, P., & Wishart, D. S. (2005). Circular genome visualization and exploration using CGView. Bioinformatics (Oxford, England), 21(4), 537–539. 
 	https://doi.org/10.1093/bioinformatics/bti054
@@ -70,15 +71,18 @@ CGView --
 	GitHub link -> https://github.com/paulstothard/cgview
 
 Tie::IxHash module --
+	
 	Version -> 1.23
 	Author -> Gurusamy Sarathy, gsar@umich.edu
 
 Bio::SeqIO module --
+	
 	Version -> 1.7.7
 	Author -> Ewan Birney, birney@ebi.ac.uk
 	Author -> Lincoln Stein, lstein@cshl.org
 
 Bio::SeqUtils module --
+	
 	Version -> 1.7.7
 	Author -> Heikki Lehvaslaiho, heikki-at-bioperl-dot-org
 	Contributors -> Roy R. Chaudhuri, roy.chaudhuri@gmail.com
