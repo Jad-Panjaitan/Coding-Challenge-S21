@@ -23,30 +23,6 @@ Genome analysis is the identification of genomic features such as gene expressio
 
 Regardless if you can or cannot answer the question, provide a short explanation of how you got your solution or how you think it can be solved in your README.md file. However, we highly recommend giving the challenge a try, you just might learn something new!
 
-
-## No Collaboration Policy
-
-**You may not collaborate with anyone on this challenge.** You _are_ allowed to use Internet documentation. If you _do_ use existing code (either from Github, Stack Overflow, or other sources), **please cite your sources in the README**.
-
-## Submission Procedure
-
-Please follow the below instructions on how to submit your answers.
-
-1. Create a **public** fork of this repo and name it `ACM-Research-Coding-Challenge-S21`. To fork this repo, click the button on the top right and click the "Fork" button.
-2. Clone the fork of the repo to your computer using `git clone [the URL of your clone]`. You may need to install Git for this (Google it).
-3. Complete the Challenge based on the instructions below.
-4. Submit your solution by filling out this [form](https://acmutd.typeform.com/to/uqAJNXUe).
-
-## Question One
-
-Genome analysis is the identification of genomic features such as gene expression or DNA sequences in an individual's genetic makeup. A genbank file (.gb) format contains information about an individual's DNA sequence. The following dataset in `Genome.gb` contains a complete genome sequence of Tomato Curly Stunt Virus. 
-
-**With this file, create a circular genome map and output it as a JPG/PNG/JPEG format.** We're not looking for any complex maps, just be sure to highlight the features and their labels.
-
-**You may use any programming language you feel most comfortable. We recommend Python because it is the easiest to implement. You're allowed to use any library you want to implement this**, just document which ones you used in this README file. Try to complete this as soon as possible.
-
-Regardless if you can or cannot answer the question, provide a short explanation of how you got your solution or how you think it can be solved in your README.md file. However, we highly recommend giving the challenge a try, you just might learn something new!
-
 ## JADDYN'S SUMMARY
 
 1. The first thing I did was look for libraries that could help in graphing a circular genome, because I am not willing to do all that work myself. I came across a few, but I      had trouble finding something that could fit the bill.
@@ -68,8 +44,14 @@ Regardless if you can or cannot answer the question, provide a short explanation
 
     Instead, I had to tinker with the .xml file itself, manually wrapping gene in these <featureSlot> </featureSlot> things, also sprucing up the graph with colors and contrast     while I was at it. I don't know how XML works, but what matters is that I achieved my goal, right? It did render expediting the parsing process to the Perl script moot,         though. 
 
+It took me a week to figure all of this out.
+
 After I completed the challenge, I found http://cgview.ca/, which would have taken my Genome.gb file and spat out the map I wanted in under a minute.
 But I don't think either of us would be satisfied with that, haha --
+
+![## FINAL ANSWER:](https://raw.githubusercontent.com/Jad-Panjaitan/Coding-Challenge-S21/main/Final-Answer/finalanswer.png)
+
+https://github.com/Jad-Panjaitan/Coding-Challenge-S21/blob/main/Final-Answer/finalanswer.png
 
 ## JADDYN'S POST-CHALLENGE REMARKS
 
