@@ -58,7 +58,9 @@ https://github.com/Jad-Panjaitan/Coding-Challenge-S21/blob/main/Final-Answer/fin
 1. Troubleshooting the map, figuring why such and such wasn't working or displaying correctly, was probably the toughest part of this challenge.
 2. Fixing the broken Perl module and figuring out how terminals work was also pretty tough. But everything is easier in hindsight.
 3. molbiol-tools.ca/Genomics.htm has a LOT of genome-related map stuff. So CGView isn't the only way to go about it.
-4. I wonder how Aditya did it using Python on repl.it? Perhaps it would've been easier if I didn't decide to go the CGView route... 
+4. https://de.mathworks.com/help/bioinfo/ref/featureview.html is also a way to do it in MATLab.
+5. If I wanted to do it in C++, I could have used libraries such as Bio++. BioPython for Python, BioJava for Java... 
+6. I think I did pretty well for a non-CS major with 1336-level base of knowledge! That's the power of Google for you :)
 
 ## CITATIONS
 
