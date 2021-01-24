@@ -107,14 +107,12 @@ Bio::SeqUtils module --
 I wonder if I should just take the codon datas and generate a plasmid map using that. 
 That's the simple solution, but I want to see if I can make a program that takes in a GenBank file and spits out a circular genome map. Also why are these break lines so long? I need a mouse
 
-Things we need have asterisk: 
+Things we need?
 
-*Locus name (the GenBank code for the virus): NC_004675
-*Length: 2766 bp (base pairs)
-GenBank Divison: VRL == viral sequences
-Last Edited: 13-AUG 20
-*Features (information about genes and gene products): 
-*ALSO include the loci!
+	Locus name (the GenBank code for the virus): NC_004675
+	Length: 2766 bp (base pairs)
+	Features (information about genes and gene products): 
+	ALSO include the loci!
 	Source: bp 1 to bp 2766
 		Organism Name: "Tomato blah blah blah"
 		Molecule Type: genomic DNA
@@ -153,10 +151,10 @@ So what does "complement (bp range)" mean?
 
 What is GC Content, GC Skew +, GC Skew -?
 
-	They all relate to the amount of Guanine-Cytosine bases in the frame. The skews are just a way to represent the relative amount of GC Content. Skews are interesting because they
-	typically relate to leading and lagging strands.
+	They all relate to the amount of Guanine-Cytosine bases in the frame. The skews are just a way to represent the relative amount of GC Content. Skews are interesting because they typically relate to leading and lagging strands.
 
 Why aren't the labels showing?
+
 	I need to specify to show gene and feature labels when I build the .xml file using that Perl script.
 
 Why are all of the genes blending together?
@@ -167,6 +165,7 @@ Why are all of the genes blending together?
 	I have to edit the .xml file I generated, and put each gene wrapped in <featureSlot> </featureSlot>. A bit troublesome, yes.
 
 Why aren't the labels showing AGAIN?
+
 	Because you were tinkering around with font size, you made the labels too large to display. The map is too small. Make it bigger.
 
 	
