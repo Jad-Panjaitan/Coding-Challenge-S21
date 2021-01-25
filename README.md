@@ -76,12 +76,14 @@ Tie::IxHash module --
 	
 	Version -> 1.23
 	Author -> Gurusamy Sarathy, gsar@umich.edu
+	Link -> https://metacpan.org/pod/Tie::IxHash
 
 Bio::SeqIO module --
 	
 	Version -> 1.7.7
 	Author -> Ewan Birney, birney@ebi.ac.uk
 	Author -> Lincoln Stein, lstein@cshl.org
+	Link -> https://metacpan.org/pod/Bio::SeqIO
 
 Bio::SeqUtils module --
 	
@@ -89,6 +91,7 @@ Bio::SeqUtils module --
 	Author -> Heikki Lehvaslaiho, heikki-at-bioperl-dot-org
 	Contributors -> Roy R. Chaudhuri, roy.chaudhuri@gmail.com
 	Contributors -> Frank Schwach, frank.schwach@sanger.ac.ul
+	Link -> https://metacpan.org/pod/Bio::SeqUtils
 
 ## JADDYN'S WORK NOTES
 
